@@ -1,21 +1,45 @@
 <!DOCTYPE html>
 <html>
     <head>
-
         <meta chaster = "utf-8">
         <title>Productos - Barberia alura</title>
+        <link rel="stylesheet" href = "css/reset.css">
         <link rel="stylesheet" href = "css/productos.css">
     </head>
     <body>
         <header>
-            <h1><img src="Imagenes/logo.png"></h1>
-            <nav>
-                <ul>
-                    <li><a href = "index.html">Home</a></li>
-                    <li><a href = "productos.html">Productos</a></li>
-                    <li><a href = "contactos.html">contactos</a></li>
-                </ul>
-            </nav>            
+            <div class = "caja">
+                <h1><img src="Imagenes/logo.png"></h1>
+                <nav>
+                    <ul>
+                        <li><a href = "index.html">Home</a></li>
+                        <li><a href = "productos.html">Productos</a></li>
+                        <li><a href = "contactos.html">contactos</a></li>
+                    </ul>
+                </nav> 
+            </div>                       
         </header>
+        <main>
+            <ul class = "productos">
+                <li>
+                    <h2>Cabello</h2>
+                    <img src = "Imagenes/cabello.jpg">
+                    <p class = "producto-descripcion">Con tijeta o máquina, al gusto del cliente</p>
+                    <p class = "producto-precio">$ 10.00</p>                    
+                </li>
+                <li>
+                    <h2>Barba</h2>
+                    <img src = "Imagenes/barba.jpg">
+                    <p class = "producto-descripcion">Corte y diseño profesional de barba</p>
+                    <p class = "producto-precio">$ 08.00</p>                    
+                </li>
+                <li>
+                    <h2>Cabello + Barba</h2>
+                    <img src = "Imagenes/cabello+barba.jpg">
+                    <p class = "producto-descripcion">Paquete complero de cabello y barba</p>
+                    <p class = "producto-precio">$ 15.00</p>                    
+                </li>
+            </ul>                           
+        </main>
     </body>
 </html>
