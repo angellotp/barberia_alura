@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta chaster = "utf-8">
+        <title>Contacto - Barberia alura</title>
+        <link rel="stylesheet" href = "css/reset.css">
+        <link rel="stylesheet" href = "css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class = "caja">
+                <h1><img src="Imagenes/logo.png"></h1>
+                <nav>
+                    <ul>
+                        <li><a href = "index.html">Home</a></li>
+                        <li><a href = "productos.html">Productos</a></li>
+                        <li><a href = "contactos.html">contactos</a></li>
+                    </ul>
+                </nav> 
+            </div>                       
+        </header>
+        <main>
+            <form>
+                <label for="nombreapellido">Nombre y Apellido</label>
+                <input type = "text" id = "nombreapellido" class = "input-padron">
+
+                <label for="correoelectronico">Correo electronico</label>
+                <input type = "email" id = "correoelectronico" class = "input-padron">
+
+                <label for="telefono">Telefono</label>
+                <input type = "tel" id = "telefono" class = "input-padron">                
+
+                <label for ="mensaje">Mensaje</label>
+                <textarea cols = "70" rows = "10" id = "mensaje" class = "input-padron"></textarea>
+
+                <div> 
+                    <p>¿Como le gustaria que le contactemos?</p>
+                
+                    <label for ="radio-email"><input type = "radio" name = "contacto" value = "email" id = "radio-email">Email</label>
+
+                    <label for ="radio-telefono"><input type = "radio" name = "contacto" value = "telefono" id = "radio-telefono">Telefono</label>
+
+                    <label for ="radio-whatsapp"><input type = "radio" name = "contacto" value = "whatsapp" id = "radio-whatsapp">Whatsapp</label>
+                </div>
+                <div>
+                    <label for="horario">¿En cual horario prefiere ser atendido?</label>
+                    <select name="" id="">
+                        <option>Mañana</option>
+                        <option>Tarde</option>
+                        <option>Noche</option>
+                    </select>
+                </div>               
+                <label class = "checkbox"><input type = "checkbox">¿Le gustaria recibir novedades de la Barberia Alura?</label> 
+                
+                <input type="submit" value = "Enviar Formulario">             
+            </form>       
+        </main>
+        <footer>
+            <img src = "Imagenes/logo-blanco.png">
+            <p class = "copyrigth">
+                &copy Copyrigth Barberia Alura - 2020
+            </p>
+        </footer>
+    </body>
+</html>

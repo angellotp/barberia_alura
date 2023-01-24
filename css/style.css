@@ -1,48 +1,116 @@
-p{
-    text-align: center;
+header{
+    background-color: #bbbbbb;
+    padding: 20px 0;
 }
 
-.tituloPrincipal{
-    padding-left: 30px;
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
 }
 
-#banner{
-    width: 100%;
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
 
-.principal{
-    background: #CCCC;
-    padding: 20px;
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
 }
 
-.tituloCentralizado{
-    text-align: center;
-}
- 
-em strong{
-    color: red;
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+} 
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
 }
 
-#mision{
-    font-size: 20px;
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
 }
 
-.diferenciales{
-    background: #FFFFFF;
-    padding: 30px;
-}
-
-.items{
-    font-style: italic;
-}
-
-ul{
+.productos li{
     display: inline-block;
+    text-align: center;
+    width: 30%;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
 }
 
-.imagenDiferenciales{
-    width: 50%;
+.productos li:hover{
+    border-color: #c78c19;
+}   
+
+.productos li:active{
+    border-color: #089c19;
 }
+
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.productos li:hover h2{
+    font-size: 33px;
+}
+
+.producto-descripcion{
+    font-size: 18px;
+}
+
+.producto-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    background: url(../Imagenes/bg.jpg);
+    padding: 40px;
+}
+
+.copyrigth{
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
+}
+ main{
+    width: 940px;
+    margin: 0 auto;
+ }
+
+ form{
+    margin: 40px 0;
+ }
+
+ form label, form p{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+ }
+
+ .input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+ }
+
+ .checkbox{
+    margin: 20px 0;
+ }
