@@ -253,7 +253,19 @@ footer{
         position: static;
     }
 
-    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video{
+    .productos li{
+        display: list-item;
+        text-align: center;
+        width: auto;
+        vertical-align: top;
+        margin: 1.5% 0;
+        padding: 30px 20px;
+        box-sizing: border-box;
+        border: 2px solid #000000;
+        border-radius: 10px;
+    }
+
+    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video, .productos{
         width: auto;
     }
 
